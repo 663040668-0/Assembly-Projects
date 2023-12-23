@@ -8,7 +8,7 @@
             "name": "FASM Assembler and Runner",
             "type": "f5anything",
             "request": "launch",
-            "command": "fasm ${relativeFileDirname}\\${fileBasename} ${relativeFileDirname}\\${fileBasenameNoExtension}.exe ; start ${relativeFileDirname}\\${fileBasenameNoExtension}.exe"
+            "command": "fasm '${relativeFileDirname}\\${fileBasename}' '${relativeFileDirname}\\${fileBasenameNoExtension}.exe' ; start '${relativeFileDirname}\\${fileBasenameNoExtension}.exe'"
         }
     ]
 }
